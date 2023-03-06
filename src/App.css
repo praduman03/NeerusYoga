@@ -1,0 +1,296 @@
+@import url('https://fonts.cdnfonts.com/css/futura-book');
+.App {
+  text-align: center;
+  font-family: 'Futura-Book', sans-serif;
+}
+@font-face {
+  font-family: Font;
+  src: url(./assets/Fonts.ttf);
+}
+
+.body{
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+  margin: 0;
+  padding: 0;
+}
+
+
+.size{
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+.nav{
+  width: min(90%, 70.5rem);
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  /* padding: 1vh; */
+  
+}
+
+.logotext{
+  font-family: Font;
+}
+
+/* .logotext{
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Font;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+} */
+.logoimg{
+  margin: 1vh;
+}
+/* .nav img{
+  width: 12vh;
+  margin: 1vh;
+} */
+.Link-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Link{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Montserrat",Verdana,Arial,sans-serif;
+  color:black;
+  font-weight: 200;
+  font-size: 2vh;
+  padding: 5vh;
+  text-decoration-line: none;
+}
+.Link :hover{
+  color:#D4AF37
+}
+/* /////////////////////////////////Home page ///////////////////////////////////// */
+.namaste{
+  position: relative;
+  top: 80%;
+  left: 55%;
+  font-size: 10vh;
+  color: #D4AF37;
+  font-weight: 900;
+  font-family: 'Font';
+}
+.homeimg{
+  margin-top: 10vh;
+  width: min(90%,70.5rem);
+  height: min(70%,30rem);
+  /* height: 30rem; */
+}
+@media screen and (max-width: 767px){
+  .homeimg{
+    display: none;
+  }
+  .about
+  {
+    flex-direction: column-reverse;
+    margin-top: 0vh;
+  }
+  .aboutTextcontent{
+    margin-inline:auto;
+  }
+  .about img{
+      margin-inline: auto;
+  }
+  .AboutUsFlex{
+    flex-direction: column;
+  }
+}
+.yogaCarousel{
+  border: 10px solid white;
+  width: 60vh;
+  height: 50vh;
+}
+.about{
+  margin-inline:auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+.Home{
+  position: relative;
+}
+.margin{
+  margin-top: 10vh;
+}
+.aboutTextcontent{
+  width: min(90%,70vh);
+  text-align: left;
+  
+}
+.about h2{
+  margin-bottom: 5vh;
+}
+.about img{
+  width: min(90%,12rem);
+  height: 30%;
+  width: min(90%,20rem);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  /* margin: 2rem; */
+  /* margin-left: 25vh; */
+}
+.whatsapp{
+  width: 25vh;
+  height: 15vh;
+  border: 2px solid black;
+  
+}
+.logo{
+  width:10vh;
+  margin: 2vh;
+}
+.container-reviews{
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+.iFrame{
+  width: 90%;
+}
+.Googlemap{
+max-width: 200vh;
+border: 1px solid grey;
+}
+/* /////////////////////////////////////////Whatsapp////////////////////////////////////// */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      margin-top: 10px;
+  }
+
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+  }
+}
+/* ///////////////////////////////Contact us page//////////////////////////////*/
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flex-pro {
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ContactUs-Container{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  /* width: 70%; */
+  margin-inline: auto;
+}
+.ContactUs-Container h1{
+  font-family: Font;
+  margin-bottom: 5vh;
+}
+
+.Contactusimg{
+  width: 7vh;
+}
+
+/* ////////////////////////About Yoga page///////////////////////////// */
+
+.AboutYogaContainer{
+  text-align: left;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-inline: auto;
+  margin-bottom: 7vh;
+  color: black;
+}
+.AboutYogaContainer h1{
+  text-align: center;
+  font-family: Font;
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+}
+.AboutYogaContainer img{
+  width: min(50%,50vh);
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.AboutYogaContainer h4{
+  font-family: Font;
+  color: black;
+  font-weight: bolder;
+}
+
+/* ////////////////////////////////////////About us page//////////////////////////////// */
+
+.AboutUsContainer{
+  text-align: left;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-inline: auto;
+    margin-bottom: 7vh;
+    color: black;
+    font-size: 2.5vh;
+}
+.AboutUsContainer h1 {
+  text-align: center;
+  font-family: Font;
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+}
+.AboutUsContainer img {
+  width: min(90%, 80vh);
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.AboutUsFlex{
+  display: flex;
+  flex: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* flex-direction: row-reverse; */
+}
+.AboutUsText{
+  margin:2vh;
+}
