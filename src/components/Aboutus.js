@@ -8,13 +8,14 @@ function Aboutus() {
       <div className="AboutUsFlex">
         <div className="AboutUsText">
           <p>
-            Neeru Kachhwaha has over 15 years of experience and is a double M.A
-            in Yoga, Human Science and Psychology, she also holds multiple
-            certificates both national and international from various
-            organization, she is also highly skilled in various styles and
-            techniques of yoga. With years of experience teaching and helping
-            students improve their physical and mental health, She have a deep
-            understanding of the practice of yoga.
+            Neeru Kachhwaha has over 15 years of experience and is a Post
+            Graduate in Yoga and Life Science and completed various courses from
+            Yoga Alliance International like 200 hours and 500 hours course, she
+            also holds multiple certificates both national and international
+            from various organization, she is also highly skilled in various
+            styles and techniques of yoga. With years of experience teaching and
+            helping students improve their physical and mental health, She have
+            a deep understanding of the practice of yoga.
           </p>
         </div>
         <img src={Neeru} alt="" />
